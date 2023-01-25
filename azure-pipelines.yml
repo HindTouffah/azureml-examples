@@ -22,7 +22,7 @@ steps:
 
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'MPN SQLI Azure Sponsorship'
+    azureSubscription: 'MPN SQLI Azure'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
